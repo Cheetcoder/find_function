@@ -4,13 +4,10 @@ In the `main()` function, we parse command-line arguments using `process.argv` a
 
 To find files in a directory and its subdirectories, run the script with the directory you want to search in as the first argument, and the name of the file you're looking for as the second argument. For example, to find all files with the name `example.txt` in the directory `/path/to/directory`, use:
 
-bashCopy code
-
 `node find_files.js /path/to/directory example.txt`
 
 To filter the search results by file type, pass the file type as the third argument. For example, to find all regular files with the extension `.txt` in the directory `/path/to/directory`, use:
 
-bashCopy code
 
 `node find_files.js /path/to/directory "" txt`
 
